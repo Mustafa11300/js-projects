@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    nargin:0;
+    box-sizing:border-box;
+}
+body{
+    background: orange;
+}
+#form{
+    width:500px;
+    margin:20vh auto 0 auto;
+    padding:20px;
+    background-color: red;
+    border-radius:5px;
+    font-size:15px;
+}
+h1{
+    border-bottom:1px solid black;
+    margin-bottom:20px;
+    text-align:center;
+}
+.form-control{
+    display:flex;
+    flex-direction:column;
+}
+.form-control input{
+    border-radius:3px;
+    border:2px solid white;
+    margin:2px;
+    font-size:14px;
+    padding:12px;
+    width:100%;
+}
+#form #btn{
+    margin-top:10px;
+    display:flex;
+    padding:9px;
+    width:100%;
+    background-color:orange;
+    border-radius:3px;
+    border:2px solid white;
+}
+.form-control .error{
+    color:red;
+    margin:10px;
+    height:13px;
+    font-size:12px;
+}
+
+.form-control.errors input{
+    border-color:red;
+}
+.form-control.success input{
+    border-color: green;
+}
