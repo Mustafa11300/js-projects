@@ -15,7 +15,7 @@ A sleek and responsive weather forecast app that shows real-time weather informa
 
 ### ✅ Features
 - Search weather by city name
-- Fetches real-time data using a public weather API (e.g., OpenWeatherMap)
+- Fetches real-time data using a public weather API (OpenWeatherMap)
 - Displays temperature, weather condition, humidity, and wind speed
 - Clean and modern UI
 - Responsive design
